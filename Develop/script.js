@@ -48,7 +48,7 @@ function generatePassword() {
   var userInput = getPassInput();
   var result = [];
   var potentialCharacters = [];
-  var guaranteedCharacters = [];
+  var guaranteedCharacters = [userInput.passwordLength];
 
      //  adding array of each type of character into array of pontential characters  
     //  Getting a random character and pushing it to the guaranteedCharacter Array
